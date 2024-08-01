@@ -1,0 +1,1 @@
+tesseract C:\xampp\htdocs\pdf-to-text\exported\page-0.jpg C:\xampp\htdocs\pdf-to-text\tmp\output.txt -l ben+eng

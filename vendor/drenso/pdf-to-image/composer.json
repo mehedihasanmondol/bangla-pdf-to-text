@@ -1,0 +1,59 @@
+{
+    "name": "drenso/pdf-to-image",
+    "description": "Convert a pdf to an image",
+    "keywords": [
+        "pdf-to-image",
+        "pdf",
+        "convert",
+        "image"
+    ],
+    "homepage": "https://github.com/drenso/pdf-to-image",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Freek Van der Herten",
+            "email": "freek@spatie.be",
+            "homepage": "https://spatie.be"
+        },
+        {
+            "name": "Tobias Feijten",
+            "email": "tobias@drenso.nl",
+            "homepage": "https://drenso.nl"
+        },
+        {
+            "name": "Bob van de Vijver",
+            "email": "bob@drenso.nl",
+            "homepage": "https://drenso.nl"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "ext-gd": "*",
+        "ext-random": "*",
+        "symfony/filesystem": "^5.4 || ^6.4 || ^7.0",
+        "symfony/finder": "^5.4 || ^6.4 || ^7.0",
+        "symfony/process": "^5.4 || ^6.4 || ^7.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drenso\\PdfToImage\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Drenso\\PdfToImage\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

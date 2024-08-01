@@ -1,0 +1,18 @@
+{
+    "name": "mehedihasanmondol/pdf-to-text",
+    "autoload": {
+        "psr-4": {
+            "PdfToBanglaText\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mehedi Hasan Mondol"
+        }
+    ],
+    "require": {
+        "spatie/pdf-to-image": "^3.0",
+        "drenso/pdf-to-image": "^3.0"
+    },
+    "version":"1.0.0"
+}
