@@ -1,7 +1,7 @@
 <?php return array(
     'root' => array(
         'name' => 'mehedihasanmondol/pdf-to-text',
-        'pretty_version' => '1.0.0+no-version-set',
+        'pretty_version' => '1.0.0',
         'version' => '1.0.0.0',
         'reference' => null,
         'type' => 'library',
@@ -20,20 +20,11 @@
             'dev_requirement' => false,
         ),
         'mehedihasanmondol/pdf-to-text' => array(
-            'pretty_version' => '1.0.0+no-version-set',
+            'pretty_version' => '1.0.0',
             'version' => '1.0.0.0',
             'reference' => null,
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'spatie/pdf-to-image' => array(
-            'pretty_version' => '3.0.0',
-            'version' => '3.0.0.0',
-            'reference' => 'b145cf49cd232921e7d13d6d52e72c9f2581f446',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../spatie/pdf-to-image',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

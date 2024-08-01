@@ -11,7 +11,6 @@ return array(
     'Symfony\\Component\\Process\\' => array($vendorDir . '/symfony/process'),
     'Symfony\\Component\\Finder\\' => array($vendorDir . '/symfony/finder'),
     'Symfony\\Component\\Filesystem\\' => array($vendorDir . '/symfony/filesystem'),
-    'Spatie\\PdfToImage\\' => array($vendorDir . '/spatie/pdf-to-image/src'),
     'PdfToBanglaText\\' => array($baseDir . '/src'),
     'Drenso\\PdfToImage\\' => array($vendorDir . '/drenso/pdf-to-image/src'),
 );

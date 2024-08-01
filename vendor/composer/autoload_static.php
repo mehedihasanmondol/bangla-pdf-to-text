@@ -19,7 +19,6 @@ class ComposerStaticInit464788db8fc5ae95e14b34d2ce32e6f6
             'Symfony\\Component\\Process\\' => 26,
             'Symfony\\Component\\Finder\\' => 25,
             'Symfony\\Component\\Filesystem\\' => 29,
-            'Spatie\\PdfToImage\\' => 18,
         ),
         'P' => 
         array (
@@ -51,10 +50,6 @@ class ComposerStaticInit464788db8fc5ae95e14b34d2ce32e6f6
         'Symfony\\Component\\Filesystem\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/filesystem',
-        ),
-        'Spatie\\PdfToImage\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/spatie/pdf-to-image/src',
         ),
         'PdfToBanglaText\\' => 
         array (
