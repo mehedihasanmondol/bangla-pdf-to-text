@@ -34,9 +34,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['file'])) {
     } else {
         echo "File is not a PDF.";
     }
-} else {
-    echo "Invalid request.";
-}
+} 
+
 ?>
 
 </body>

@@ -59,7 +59,9 @@ class Extractor{
         $txt = "";
         for($i=1; $i <= $pdf->getNumberOfPages(); $i++){
             $image_store_path = $this->targetDir."/".uniqid().$i.".png";
-            $pdf->saveImage($image_store_path);
+            $pdf
+            ->setPage($i)
+            ->saveImage($image_store_path);
 
             $txt .= $this->extract_text_from_image($image_store_path);
             unlink($image_store_path);
